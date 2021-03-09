@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Krub', 'Ribeye Marrow', sans-serif;
+}
+
+.section {
+    width: 100%;
+}
+
+
+/* landing */
+
+.landing {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../images/pinkbg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.self-photo {
+    border-radius: 50%;
+}
+
+
+h1 {
+    font-family: 'Ribeye Marrow';
+}
+
+.landing h2 {
+    font-size: medium;
+}
+
+.landing-content {
+    margin-left: 30px;
+}
+
+/* portfolio */
+
+.portfolio {
+    min-height: 100vh;
+    background-color: #fae1dd;
+}
+
+.portfolio h2 {
+    font-family: 'Ribeye Marrow';
+    margin: 10px;
+}
+
+.tech-stack {
+    height: 100px;
+    margin-top: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#html {
+    background-image: url("../images/html.png");
+}
+
+#css {
+    background-image: url("../images/css.png");
+}
+
+#js {
+    background-image: url("../images/js.jpg");
+}
+
+#gitlab {
+    background-image: url("../images/gitlab.png");
+}
+
+#google {
+    background-image: url("../images/google.png");
+}
+
+.card {
+    margin: 10px;
+}
+
+/* contact */
+
+.contact {
+    min-height: 95vh;
+    background-color: #efd3d7;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content {
+    margin: 10px;
+}
+
+input, textarea {
+    vertical-align: top;
+      width: 300px;
+  box-sizing: border-box;
+}
+
+.links {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    font-size: .5em;
+    text-align: center;
+    border-top: 5px solid #b2dbbf;
+    padding-top: 5px;
+
+}
+
+/* media query */
